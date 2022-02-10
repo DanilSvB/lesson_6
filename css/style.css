@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,900;1,400&display=swap');
+
+body{
+    font-family: "vollkorn", sans-serif;
+    font-size: 20px;
+    color:brown;
+}
+
+.wrapper{ 
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.content{
+    width: 500px;
+    margin: 0 auto;   
+}
+
+.content-item{  
+    font-weight: 700;
+    margin: 0 0 50px 0;
+    border-top: 7px solid crimson;
+    border-bottom: 7px dashed crimson;
+}
+
+.text-block{
+    border: 7px dotted chocolate;
+    margin: 0 0 50px 0;  
+}
+
+.text-block-three{
+    border: 4px dashed salmon;
+    outline: 6px solid cornflowerblue;
+    padding: 40px;
+    margin: 0 0 50px 0;
+    border-radius: 110px;
+    box-shadow: -20px 20px 4px 10px chartreuse;
+}
+
+.text-block-four{
+    line-height: 1.5;
+    margin: 0 0 50px 0;
+}
+
+.link-span{
+    border-top: 3px solid hotpink;
+    border-left: 3px dotted lightgreen;
+    border-right: 5px dashed khaki;
+    border-bottom: 4px solid #000;
+}
+.img-test{
+    text-align: center;
+}
+.img-test img{
+    border-radius: 50%;
+    border: 10px solid yellow;
+    opacity: 0.5;
+    width: 200px;
+}
